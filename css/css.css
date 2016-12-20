@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font:100% Arial, Helvetica, sans-serif ;  color:#221814;line-height:120%; width:100%; height:100%; font-size:0.8rem; background:#333; width:100%; height:100% }
+img{ border:none}
+h1,h2,h3{ margin:0; padding:0}
+ul{ margin:0; padding:0; list-style-type:none}
+.mr1{ margin-right:10px}
+.dn{ display:none}
+a{ text-decoration:none}
+#page1{ background:url(../images/indexbg.jpg) no-repeat; background-size:cover; width:100%; height:100%}
+#page2{ background:url(../images/bg2.jpg) no-repeat; background-size:cover}
+.city{width:100%;position:fixed;bottom: 0px;z-index: 100; height:100%; left:0; background:url(../images/city.png) no-repeat; background-size:cover}
+.yhzf{ position:absolute; text-align:center; width:100%; line-height:30px; font-size:1rem; z-index:1000; left:0; top:10px; color:#97177e; background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#87137c), to(#da1476));-webkit-background-clip: text; display:none}
+.yhzf span{ font-size:1.2rem}
+.makbt{ background:url(../images/bott.png) no-repeat; width:160px; height:40px; position:absolute; left:50%; bottom:20; margin-left:-80px; z-index:100; background-size:160px; display:none}
+.makbt a{ display:block; width:100px; height:40px}
+#mak{ background:url(../images/bg3.jpg) no-repeat; background-size:cover}
+#mak  h1{ width:70%; margin:40px auto 0px}
+#mak  h1 img{ width:100%}
+#mak#mak .for{ height:auto; width:65%; margin:40px auto 0px }
+#mak#mak .for input{ width:100%; margin-bottom:30px; height:40px; line-height:40px;  background:none; border:1px solid #ff74bc; text-align:center; font-size:1rem; border-radius:4px; color:#d41477}
+::-webkit-input-placeholder { color:#d41477;}
+#mak#mak .but{ width:180px; height:40px; background:url(../images/bott2.png) no-repeat; background-size:180px; margin:40px auto 0px}
+#end{ background:url(../images/bg4.jpg) no-repeat; background-size:cover; width:100%}
+#end .she{ width:180px; height:auto; float:right; margin:20px 20px 0px 0px}
+#end .bx{ overflow:hidden; width:100%}
+#end .she img{ width:180px}
+#end .tt{ margin:180px  auto 0px; width:80%;}
+#end .tt img{ width:100%;}
+#end .link{ width:140px; height:50px; background:url(../images/bott3.png) no-repeat; background-size:140px; margin:50px  auto 0px; display:block}
